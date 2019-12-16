@@ -4,7 +4,10 @@
 import React from 'react';
 import {Field} from "redux-form";
 import style from './LoginForm.module.css'
-import {alphaNumeric, maxLength15, minLength2, number, phoneNumber, required} from "../../validates/validators";
+import {
+	alphaNumeric, maxLength15, maxLength50, minLength2, number, phoneNumber,
+	required
+} from "../../validates/validators";
 import {Input, Textarea} from "../common/FormsControls/FormsControls";
 import {  createTextMask } from 'redux-form-input-masks';
 
@@ -48,7 +51,7 @@ const LoginForm = (props) => {
 			</div>
 			<div>
 				<h3>Комментарий</h3>
-				<Field className={style.textArea} component={Textarea} name={"text"} validate={[required,alphaNumeric]}/>
+				<Field className={style.textArea} component={Textarea} name={"text"} validate={[required,maxLength50]}/>
 			</div>
 
 			<div className={style.buttonOrderPosition}>

@@ -29,3 +29,5 @@ const maxLength = max => value =>
 	value && value.length > max ? `Должно быть ${max} символов или меньше` : undefined
 
 export const maxLength15 = maxLength(15)
+
+export const maxLength50 = maxLength(50)
