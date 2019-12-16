@@ -21,11 +21,13 @@ const App = (props) => {
 				{
 					<div className={style.mainContent}>
 
+
+						<Switch>
 						<Route path={path1}
 									 render={withSuspense(Delivery)}/>
 						<Route path={path2}
 									 render={withSuspense(PickUp)}/>
-
+						</Switch>
 					</div>
 				}
 			</div>
