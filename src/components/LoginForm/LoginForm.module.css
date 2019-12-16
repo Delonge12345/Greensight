@@ -1,0 +1,138 @@
+.nameAndPhone{
+	display: flex;
+	justify-content: space-between;
+}
+h3{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
+}
+.name,.phone{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	width: 464px;
+	height: 48px;
+}
+
+.adress{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	height: 48px;
+	width: 994px;
+}
+
+.textArea{
+	width: 994px;
+	height: 112px;
+	resize: none;
+}
+.loginForm{
+	height: 536px;
+	display: flex;
+	flex-direction:column;
+	justify-content:space-around;
+	width: 1000px;
+}
+
+.buttonOrderPosition{
+	display: flex;
+	justify-content:flex-end;
+}
+
+.buttonOrder{
+	cursor: pointer;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff;
+	width: 200px;
+	height: 48px;
+	background: #215BF0;
+	border-radius: 80px;
+}
+
+.buttonOrder:hover {
+	background: #0F41C4;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+
+
+
+	.nameAndPhone{
+		flex-direction: column;
+	}
+	.adress,.textArea{
+		width: 464px;
+	}
+	.loginForm{
+		align-items: center;
+		width:900px;
+	}
+
+
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+	.name,.phone{
+		width: 400px;
+	}
+	.adress,.textArea{
+		width: 400px;
+	}
+	.loginForm{
+		align-items: center;
+		width:460px;
+	}
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+	.name,.phone{
+		width: 350px;
+	}
+	.adress,.textArea{
+		width: 350px;
+	}
+	.loginForm{
+		align-items: center;
+		width:420px;
+	}
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+
+	.name,.phone{
+		width: 200px;
+	}
+	.adress,.textArea{
+		width: 200px;
+	}
+	.loginForm{
+		align-items: center;
+		width:100%;
+	}
+}

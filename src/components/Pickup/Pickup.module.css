@@ -1,0 +1,15 @@
+.checkMapPos{
+	display: flex;
+	flex-direction: column;
+}
+
+.pickUpContainer{
+	height: 792px;
+ }
+
+
+.checkboxContainer{
+display: flex;
+flex-direction: column;
+	justify-content: space-between;
+}

@@ -1,0 +1,104 @@
+.appWrap{
+  background: #E5E5E5;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  height: 1500px;
+  width: 100%;
+}
+
+.mainContent{
+  background: #fff;
+  width: 1112px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+h2{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.switch{
+  background: #E5E5E5;
+  border-radius: 5px 5px 0px 0px;
+
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+  .mainContent{
+    width: 950px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+  .container {
+  width: 750px;
+}
+  .mainContent{
+    width: 730px;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .container {
+  width: 480px;
+}
+  .mainContent{
+    width: 460px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 320px;
+  }
+  .mainContent{
+    width: 100%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

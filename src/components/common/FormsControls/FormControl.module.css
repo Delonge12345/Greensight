@@ -1,0 +1,12 @@
+{
+
+
+}
+
+.formControl.error input,.formControl.error teaxtarea {
+	border: 1px solid red;
+}
+
+.textError {
+	color: red;
+}

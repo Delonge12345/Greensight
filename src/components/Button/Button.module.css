@@ -1,0 +1,24 @@
+
+
+.buttonOrderPosition{
+	display: flex;
+	justify-content:flex-end;
+}
+
+.buttonOrder{
+	cursor: pointer;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff;
+	width: 200px;
+	height: 48px;
+	background: #215BF0;
+	border-radius: 80px;
+}
+
+.buttonOrder:hover {
+	background: #0F41C4;
+}
