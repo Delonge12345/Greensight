@@ -4,13 +4,22 @@
 import React, {Component} from 'react';
 import {YMaps, Map, Placemark, GeoObject, Clusterer} from "react-yandex-maps";
 import points from "../common/Points/points";
+import style from './MyMap.module.css'
+
 
 
 const mapState = {
 	center: [55.751574, 37.573856],
 	zoom: 10,
-	behaviors: ['default', 'scrollZoom']
+	behaviors: ['default', 'scrollZoom'],
+
 };
+
+
+
+
+
+
 class MapYand extends React.Component {
 	state = {
 		selectedPoint: null,
@@ -39,7 +48,8 @@ class MapYand extends React.Component {
 		return (
 			<div className="App">
 				<YMaps>
-					<Map style={{height: '500px', width: '100%'}} defaultState={mapState}>
+					<Map className={style.myMap} defaultState={mapState}>
+
 						<GeoObject
 							instanceRef={ref => ref && this.setCenterForSearch(ref)}
 							defaultGeometry={{

@@ -1,3 +1,7 @@
+body{
+  background: #E5E5E5;
+}
+
 .appWrap{
   background: #E5E5E5;
   display: flex;
