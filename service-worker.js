@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Greensight/precache-manifest.30da2d8e871eaf5e490f20ddea3ed7e7.js"
+  "/Greensight/precache-manifest.b8b1ed881a161925cd84673f0a35d808.js"
 );
 
 self.addEventListener('message', (event) => {
